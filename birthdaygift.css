@@ -1,0 +1,139 @@
+
+body {
+	background: linear-gradient(#EF7A8A, #F5BAC2);
+	font-family: Happy Monkey;
+	color: white;
+	text-shadow: 0.5px 0.5px 1px black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#bday-age {
+	background: #EF7A8A;
+	padding: 12px 8px 12px 8px;
+	margin-bottom: -10px;
+}
+
+#bday-date {
+	background: #EF7A8A;
+	padding: 8px 5px 8px 5px;
+}
+
+.foto {
+	border-radius: 50%;
+	border: 5px solid white;
+}
+
+
+#today {
+	font-size: 50px;
+}
+
+.gift-section {
+	display: block;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.gift-image {
+	width: 400px;
+	height: 400px;
+	background-image: url("gift.jpg");
+	background-size: cover;
+	border: 6px solid whitesmoke;
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+
+	/*
+	width: 400px;
+	border: 10px solid whitesmoke;
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	*/
+}
+	
+
+#imageone:hover {
+	background-image: url("gift-happy.webp");
+}
+
+#imagetwo:hover {
+	background-image: url("gift-wow.webp");
+}
+
+#imagethree:hover {
+	background-image: url("gift-three.webp");
+}
+
+#imagefour:hover {
+	background-image: url("gift-four.webp");
+}
+
+#imagefive:hover {
+	background-image: url("gift-five.webp");
+}
+
+
+.footer {
+	margin-top: 30px;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: #EF7A8A;
+}
+
+
+/*
+.main {
+	text-align: center;
+	background: lightpink;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-shadow: 2px 2px 1px #EF7A8A;
+	font-family: Happy Monkey;
+
+}
+
+
+
+h2, h4{
+	background: #EF7A8A;
+	padding: 10px;
+
+#bday-age {
+	background: #EF7A8A;
+	font-size: 30px;
+}
+#bday-date {
+	background: #EF7A8A;
+
+}
+
+.foto {
+	border-radius: 50%;
+	border: 6px solid white;
+	margin-bottom: 10px;
+}
+
+*/
